@@ -1,0 +1,38 @@
+/* styles.css */
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.game-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #222;
+}
+
+.player, .projectile, .target {
+    position: absolute;
+}
+
+.player {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.projectile {
+    width: 10px;
+    height: 20px;
+    background-color: yellow;
+}
+
+.target {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}

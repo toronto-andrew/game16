@@ -1,0 +1,20 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            //"program": "${workspaceFolder}/code/examples/hello.js",
+            //"program": "${workspaceFolder}/code/examples/parallel1.js",
+            "program": "${workspaceFolder}/code/examples/game.js",
+            "runtimeExecutable": "/apps/node-v20.14.0-linux-x64/bin/node"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Window Object Example</title>
+</head>
+<body>
+    <h1 id="title">Original Title</h1>
+    <button onclick="changeTitle()">Change Title</button>
+    <button onclick="showAlert()">Show Alert</button>
+
+    <script>
+        // Change the title of the document
+        function changeTitle() {
+            document.getElementById('title').innerText = 'Title Changed!';
+        }
+
+        // Show an alert
+        function showAlert() {
+            window.alert('Hello, this is an alert!');
+        }
+
+        // Log the current location
+        console.log(window.location.href);
+
+        // Set a timeout to change the title after 5 seconds
+        window.setTimeout(changeTitle, 5000);
+    </script>
+</body>
+</html>
